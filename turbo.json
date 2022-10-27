@@ -8,6 +8,9 @@
       "outputs": [
         "dist/**",
         ".next/**"
+      ],
+      "env": [
+        "WEB_KEY"
       ]
     },
     "db:push": {
