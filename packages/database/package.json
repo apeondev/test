@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate": "prisma generate",
-    "db:push": "prisma db push"
+    "db:push": "prisma db push",
+    "build": "prisma generate && tsc"
   },
   "keywords": [],
   "author": "",
