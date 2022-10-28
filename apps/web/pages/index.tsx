@@ -34,7 +34,7 @@ export default function Web({ account, webkey }: {
 }
 
 // get server side props
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const webKey = process.env.WEB_KEY;
   console.log(webKey);
   await prisma.account.create({
